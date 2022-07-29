@@ -802,7 +802,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                sticker="CAACAgIAAxkBAAOXYuQPfUX4c_C4Drrd5z0jJP8Hs8EAAn0EAALMVEkJyug4slVpPO0pBA",
+                animation="CAACAgIAAxkBAAOXYuQPfUX4c_C4Drrd5z0jJP8Hs8EAAn0EAALMVEkJyug4slVpPO0pBA",
                 caption=f"""
 ㅤㅤ {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
 
