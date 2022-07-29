@@ -802,7 +802,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/7dad16fd6d5f81829ec15.mp4",
+                sticker="CAACAgIAAxkBAAOXYuQPfUX4c_C4Drrd5z0jJP8Hs8EAAn0EAALMVEkJyug4slVpPO0pBA",
                 caption=f"""
 ㅤㅤ {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
 
