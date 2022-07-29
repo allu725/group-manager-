@@ -119,7 +119,7 @@ HELP_STRINGS = f"""
   ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
   ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ."""
 
-DONATE_STRING = """no need,if you wanna , i can give to credit members 
+DONATE_STRING = """if you wanna , i can give to credit members 
   .
 
 ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](https://t.me/althaf_mk) ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](https://t.me/optimus_prime_althaf) ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
@@ -468,12 +468,12 @@ def Source_about_callback(update: Update, context: CallbackContext):
         query.message.edit_text(
             text=f"""
 *ʜᴇʏ,
- ᴛʜɪs ɪs {dispatcher.bot.first_name},
+ᴛʜɪs ɪs {dispatcher.bot.first_name},
 ᴀɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
 
 ─「 ᴄʀᴇᴅɪᴛs 」─
 
-ᴀɴᴏɴʏᴍᴏᴜs ➻ for the source of bot
+ᴀɴᴏɴʏᴍᴏᴜs ➻ for the bot 
 
 ᴩᴀᴜʟ ʟᴀʀsᴇɴ ➻ ᴛɢ ʙᴏᴛ
 
@@ -495,7 +495,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 *ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://github.com/contactdev)
 
 {dispatcher.bot.first_name} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/contactdev).
-© 2022 - 2023 [@god](https://t.me/{SUPPORT_CHAT}), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
+© 2022 - 2023 [@althaf_mk](https://t.me/{SUPPORT_CHAT}), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -753,7 +753,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 1356469075 and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏʀᴄᴇ ᴄᴏᴅᴇ ɪs [ᴀɴᴏɴʏᴍᴏᴜs](https://t.me/anonymous_was_bot)."
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏʀᴄᴇ ᴄᴏᴅᴇ ɪs [ᴀɴᴏɴʏᴍᴏᴜs]()."
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ maintaining ᴍᴇ : [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
