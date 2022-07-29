@@ -471,11 +471,21 @@ def Source_about_callback(update: Update, context: CallbackContext):
  ᴛʜɪs ɪs {dispatcher.bot.first_name},
 ᴀɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
 
-Credits-
-__________
+─「 ᴄʀᴇᴅɪᴛs 」─
 
-AnonymousR1025 " for all and source
-me planing to add and change and learn something 
+ᴀɴᴏɴʏᴍᴏᴜs ➻ for the source of bot
+
+ᴩᴀᴜʟ ʟᴀʀsᴇɴ ➻ ᴛɢ ʙᴏᴛ
+
+ǫᴜᴇᴇɴ ᴀʀᴢᴏᴏ ➻ ʟᴀʏʟᴀ ʀᴏʙᴏᴛ
+
+ᴀɴɪᴍᴇ ᴋᴀɪᴢᴏᴋᴜ ➻ sᴀɪᴛᴀᴍᴀ ʀᴏʙᴏᴛ
+
+ʜᴀᴍᴋᴇʀ ᴄᴀᴛ ➻ ᴡɪʟʟɪᴀᴍ ʙᴜᴛᴄʜᴇʀ
+
+
+
+
 
 ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ : [ᴛᴇʟᴇᴛʜᴏɴ](https://github.com/LonamiWebs/Telethon)
 [ᴩʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram)
@@ -794,7 +804,7 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://telegra.ph/file/7dad16fd6d5f81829ec15.mp4",
                 caption=f"""
-ㅤㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
+ㅤㅤ {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
 
 ━━━━━━━━━━━━━
 ㅤ๏ **ᴘʏᴛʜᴏɴ :** `{y()}`
